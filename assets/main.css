@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    box-shadow: 5px 5px 10px 2px rgb(197, 191, 191);
+    padding: 10px;
+    position: sticky;
+
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+header .logo h1{
+ color: #545BE8;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 2px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+header .container{
+    display: flex;
+    align-items: center;
+}
+header nav{
+display: flex;
+width: 300px;
+justify-content: center;
+align-items: center;
+gap: 16.474px;
+margin: auto;
+font-size: 10px;
+
+/* flex-wrap: wrap; */
+
+}
+header nav a{
+    
+    color: rgb(48, 42, 42);
+    font-size: 13px;
+
+}
+nav a{
+    text-decoration: none;
+    
+
+}
+#home{
+    font-weight: bold;
+}
+.enter a{
+text-decoration: none;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 1000;
+line-height: normal;
+border-radius: 4.119px;
+border: 0.412px solid #545BE8;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+#log{
+    color: #545BE8;
+}
+#reg{
+color: white;
+background-color: #545BE8;
+}
+
+
+footer{
+    background-color: #393E46;
+   
+    color: white;
+    
+}
+footer p{
+    color: var(--light, #F4F4F4);
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 9.885px; 
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 45px;
+    padding-top: 37px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+.icon{
+    border: 0.412px solid #FFF;
+    width: 13.18px;
+    height: 13.18px;
+    padding: 3px;
+    box-sizing: content-box;
+
+
+}
+.left , .right{
+width: calc((100% - 90px)/2);
+}
+footer .row{
+    display: flex;
+    gap: 90px;
+  
+}
+.right{
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.footer-navs{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    
+}
+.footer-navs nav{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.footer-navs nav a{
+    color: var(--light, #F4F4F4);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-navs nav h2{
+    color: var(--White-color, #FFF);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight:bold;
+line-height: normal;
+}
+
+footer .logo h1{
+    color: white;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-left: 2px;
+   }
+   nav h2{
+    padding-bottom: 10px;
+   }
+   nav{
+    gap: 10px;
+   }
+
+   .testimonials .container h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .row{
+    display: flex;
+    gap: 20px;
+   }
+   .piname img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   }
+   .piname{
+    display: flex;
+   }
+   .piname .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+
+.piname .name h3{
+    color: #000;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.piname .name p{
+    color: var(--Medium, #969696);
+font-family: Poppins;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.testimonial q{
+    color: var(--Medium-Dark, #646464);
+    font-family: Poppins;
+    font-size: 7.413px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.356px; /* 166.667% */
+}
+.testimonial{
+    box-shadow: 5px 10px 20px 0px rgb(228, 222, 222);
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    width: calc((100% - 20px)/2);
+}
